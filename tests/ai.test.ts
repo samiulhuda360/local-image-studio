@@ -9,6 +9,7 @@ import {
   DEFAULT_MODEL,
   Describer,
   parseModelReply,
+  spacingFromEnv,
   toBox,
   type AiConfig,
 } from '../server/ai.ts'
@@ -62,6 +63,12 @@ describe('configFromEnv', () => {
     expect(c.baseUrl).toBe(DEFAULT_BASE_URL)
     expect(c.model).toBe(DEFAULT_MODEL)
     expect(c.cacheDir).toBe(path.join('/root', '.cache', 'describe'))
+  })
+  it('reads AI_MIN_INTERVAL in seconds and never goes below 2.5 s', () => {
+    expect(configFromEnv({ AI_MIN_INTERVAL: '4.5' }).minSpacingMs).toBe(4500)
+    expect(spacingFromEnv('1')).toBe(2500)
+    expect(spacingFromEnv('abc')).toBe(2500)
+    expect(spacingFromEnv(undefined)).toBe(2500)
   })
   it('reads overrides and trims a trailing slash', () => {
     const c = configFromEnv({ AI_API_KEY: ' k ', AI_BASE_URL: 'https://x.invalid/v1/', AI_MODEL: 'm', AI_CACHE_DIR: '/c' })

@@ -38,9 +38,16 @@ export function configFromEnv(env: NodeJS.ProcessEnv, root = process.cwd()): AiC
     baseUrl: (env.AI_BASE_URL?.trim() || DEFAULT_BASE_URL).replace(/\/+$/, ''),
     model: env.AI_MODEL?.trim() || DEFAULT_MODEL,
     cacheDir: env.AI_CACHE_DIR?.trim() || path.join(root, '.cache', 'describe'),
-    minSpacingMs: MIN_SPACING_MS,
+    minSpacingMs: spacingFromEnv(env.AI_MIN_INTERVAL),
     timeoutMs: 30_000,
   }
+}
+
+/** AI_MIN_INTERVAL is in seconds; values below the 2.5 s floor are raised to it. */
+export function spacingFromEnv(value: string | undefined): number {
+  const seconds = Number(value)
+  if (!value || !Number.isFinite(seconds)) return MIN_SPACING_MS
+  return Math.max(MIN_SPACING_MS, Math.round(seconds * 1000))
 }
 
 export const SYSTEM_PROMPT = `You write accessibility alt text for images. Reply with JSON only, no prose, shaped exactly like:
