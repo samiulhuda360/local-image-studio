@@ -1,0 +1,326 @@
+{
+  "presets": [
+    {
+      "name": "Web 1600 px WebP q80",
+      "maxSide": 1600,
+      "format": "image/webp",
+      "quality": 0.8
+    },
+    {
+      "name": "Email 1200 px JPEG q80",
+      "maxSide": 1200,
+      "format": "image/jpeg",
+      "quality": 0.8
+    },
+    {
+      "name": "Same size WebP q85",
+      "maxSide": 0,
+      "format": "image/webp",
+      "quality": 0.85
+    }
+  ],
+  "summary": [
+    {
+      "preset": "Web 1600 px WebP q80",
+      "totalBefore": 3035296,
+      "totalAfter": 1843066,
+      "totalSaved": 0.3927887098984745,
+      "medianSaved": 0.5149540093674172,
+      "minSaved": -0.07592023650802848
+    },
+    {
+      "preset": "Email 1200 px JPEG q80",
+      "totalBefore": 3035296,
+      "totalAfter": 1674727,
+      "totalSaved": 0.44824919876018676,
+      "medianSaved": 0.5030002069108215,
+      "minSaved": 0.1051868096368177
+    },
+    {
+      "preset": "Same size WebP q85",
+      "totalBefore": 3035296,
+      "totalAfter": 2919940,
+      "totalSaved": 0.038004860152024755,
+      "medianSaved": 0.13683886109859889,
+      "minSaved": -0.2514520897339285
+    }
+  ],
+  "rows": [
+    {
+      "file": "eval\\photos\\EC76-6048.jpg",
+      "width": 1920,
+      "height": 1536,
+      "before": 396642,
+      "after": {
+        "Web 1600 px WebP q80": {
+          "bytes": 160048,
+          "width": 1600,
+          "height": 1280
+        },
+        "Email 1200 px JPEG q80": {
+          "bytes": 125713,
+          "width": 1200,
+          "height": 960
+        },
+        "Same size WebP q85": {
+          "bytes": 399816,
+          "width": 1920,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "file": "eval\\photos\\KSC-03pd2363.jpg",
+      "width": 1920,
+      "height": 1251,
+      "before": 405982,
+      "after": {
+        "Web 1600 px WebP q80": {
+          "bytes": 224298,
+          "width": 1600,
+          "height": 1043
+        },
+        "Email 1200 px JPEG q80": {
+          "bytes": 167197,
+          "width": 1200,
+          "height": 782
+        },
+        "Same size WebP q85": {
+          "bytes": 429320,
+          "width": 1920,
+          "height": 1251
+        }
+      }
+    },
+    {
+      "file": "eval\\photos\\KSC-03pd2987.jpg",
+      "width": 1280,
+      "height": 851,
+      "before": 321932,
+      "after": {
+        "Web 1600 px WebP q80": {
+          "bytes": 329816,
+          "width": 1280,
+          "height": 851
+        },
+        "Email 1200 px JPEG q80": {
+          "bytes": 288069,
+          "width": 1200,
+          "height": 798
+        },
+        "Same size WebP q85": {
+          "bytes": 384690,
+          "width": 1280,
+          "height": 851
+        }
+      }
+    },
+    {
+      "file": "eval\\photos\\KSC-07PD-0647.jpg",
+      "width": 1920,
+      "height": 1276,
+      "before": 399099,
+      "after": {
+        "Web 1600 px WebP q80": {
+          "bytes": 229348,
+          "width": 1600,
+          "height": 1063
+        },
+        "Email 1200 px JPEG q80": {
+          "bytes": 206669,
+          "width": 1200,
+          "height": 798
+        },
+        "Same size WebP q85": {
+          "bytes": 378534,
+          "width": 1920,
+          "height": 1276
+        }
+      }
+    },
+    {
+      "file": "eval\\photos\\KSC-2014-1790.jpg",
+      "width": 1920,
+      "height": 1280,
+      "before": 212652,
+      "after": {
+        "Web 1600 px WebP q80": {
+          "bytes": 103146,
+          "width": 1600,
+          "height": 1067
+        },
+        "Email 1200 px JPEG q80": {
+          "bytes": 105688,
+          "width": 1200,
+          "height": 800
+        },
+        "Same size WebP q85": {
+          "bytes": 178288,
+          "width": 1920,
+          "height": 1280
+        }
+      }
+    },
+    {
+      "file": "eval\\photos\\KSC-20170219-PH_JBS01_0007.jpg",
+      "width": 1920,
+      "height": 1280,
+      "before": 97908,
+      "after": {
+        "Web 1600 px WebP q80": {
+          "bytes": 30188,
+          "width": 1600,
+          "height": 1067
+        },
+        "Email 1200 px JPEG q80": {
+          "bytes": 46192,
+          "width": 1200,
+          "height": 800
+        },
+        "Same size WebP q85": {
+          "bytes": 53926,
+          "width": 1920,
+          "height": 1280
+        }
+      }
+    },
+    {
+      "file": "eval\\photos\\KSC-20190411-PH_ILW01_0075.jpg",
+      "width": 1920,
+      "height": 1280,
+      "before": 308195,
+      "after": {
+        "Web 1600 px WebP q80": {
+          "bytes": 171864,
+          "width": 1600,
+          "height": 1067
+        },
+        "Email 1200 px JPEG q80": {
+          "bytes": 167589,
+          "width": 1200,
+          "height": 800
+        },
+        "Same size WebP q85": {
+          "bytes": 278370,
+          "width": 1920,
+          "height": 1280
+        }
+      }
+    },
+    {
+      "file": "eval\\photos\\KSC-20190925-PH-GEB01_0017.jpg",
+      "width": 1920,
+      "height": 1050,
+      "before": 253086,
+      "after": {
+        "Web 1600 px WebP q80": {
+          "bytes": 130758,
+          "width": 1600,
+          "height": 875
+        },
+        "Email 1200 px JPEG q80": {
+          "bytes": 135885,
+          "width": 1200,
+          "height": 656
+        },
+        "Same size WebP q85": {
+          "bytes": 218454,
+          "width": 1920,
+          "height": 1050
+        }
+      }
+    },
+    {
+      "file": "eval\\photos\\KSC-20210121-PH-JBS01_0143.jpg",
+      "width": 1280,
+      "height": 853,
+      "before": 345020,
+      "after": {
+        "Web 1600 px WebP q80": {
+          "bytes": 371214,
+          "width": 1280,
+          "height": 853
+        },
+        "Email 1200 px JPEG q80": {
+          "bytes": 299136,
+          "width": 1200,
+          "height": 800
+        },
+        "Same size WebP q85": {
+          "bytes": 431776,
+          "width": 1280,
+          "height": 853
+        }
+      }
+    },
+    {
+      "file": "eval\\photos\\KSC-20240819-PH-JBS01_0009.jpg",
+      "width": 1920,
+      "height": 1280,
+      "before": 58464,
+      "after": {
+        "Web 1600 px WebP q80": {
+          "bytes": 10794,
+          "width": 1600,
+          "height": 1067
+        },
+        "Email 1200 px JPEG q80": {
+          "bytes": 17457,
+          "width": 1200,
+          "height": 800
+        },
+        "Same size WebP q85": {
+          "bytes": 20834,
+          "width": 1920,
+          "height": 1280
+        }
+      }
+    },
+    {
+      "file": "eval\\photos\\iss040e080833.jpg",
+      "width": 1920,
+      "height": 1277,
+      "before": 129064,
+      "after": {
+        "Web 1600 px WebP q80": {
+          "bytes": 45308,
+          "width": 1600,
+          "height": 1064
+        },
+        "Email 1200 px JPEG q80": {
+          "bytes": 61710,
+          "width": 1200,
+          "height": 798
+        },
+        "Same size WebP q85": {
+          "bytes": 80414,
+          "width": 1920,
+          "height": 1277
+        }
+      }
+    },
+    {
+      "file": "eval\\photos\\iss072e001649.jpg",
+      "width": 1920,
+      "height": 1078,
+      "before": 107252,
+      "after": {
+        "Web 1600 px WebP q80": {
+          "bytes": 36284,
+          "width": 1600,
+          "height": 898
+        },
+        "Email 1200 px JPEG q80": {
+          "bytes": 53422,
+          "width": 1200,
+          "height": 674
+        },
+        "Same size WebP q85": {
+          "bytes": 65518,
+          "width": 1920,
+          "height": 1078
+        }
+      }
+    }
+  ]
+}

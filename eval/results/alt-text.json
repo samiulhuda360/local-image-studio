@@ -1,0 +1,188 @@
+{
+  "aiEnabled": true,
+  "localPasses": 8,
+  "aiPasses": 20,
+  "n": 20,
+  "rows": [
+    {
+      "file": "red-circle.png",
+      "localAlt": "Image of red circle, landscape orientation, 640 by 480 pixels, mostly red tones.",
+      "localPass": true,
+      "aiAlt": "The national flag of Japan features a red circle centered on a white background.",
+      "aiPass": true,
+      "aiSource": "ai",
+      "aiCrop": true
+    },
+    {
+      "file": "blue-square-top-left.png",
+      "localAlt": "Image of blue square top left, landscape orientation, 640 by 480 pixels, mostly blue tones.",
+      "localPass": true,
+      "aiAlt": "A solid blue square is positioned in the upper left corner on a plain white background.",
+      "aiPass": true,
+      "aiSource": "ai",
+      "aiCrop": true
+    },
+    {
+      "file": "three-green-stripes.png",
+      "localAlt": "Image of three green stripes, landscape orientation, 640 by 480 pixels, mostly green tones.",
+      "localPass": true,
+      "aiAlt": "Green and white horizontal stripes pattern.",
+      "aiPass": true,
+      "aiSource": "ai",
+      "aiCrop": false
+    },
+    {
+      "file": "yellow-triangle.png",
+      "localAlt": "Image of yellow triangle, portrait orientation, 480 by 640 pixels, mostly yellow tones.",
+      "localPass": true,
+      "aiAlt": "A solid yellow triangle on a plain white background.",
+      "aiPass": true,
+      "aiSource": "ai",
+      "aiCrop": true
+    },
+    {
+      "file": "checkerboard.png",
+      "localAlt": "Image of checkerboard, square orientation, 512 by 512 pixels, mostly grey tones.",
+      "localPass": true,
+      "aiAlt": "A black and white checkered pattern filling the square frame.",
+      "aiPass": true,
+      "aiSource": "ai",
+      "aiCrop": true
+    },
+    {
+      "file": "orange-ring.png",
+      "localAlt": "Image of orange ring, square orientation, 600 by 600 pixels, mostly orange tones.",
+      "localPass": true,
+      "aiAlt": "A solid orange ring shape centered against a white background.",
+      "aiPass": true,
+      "aiSource": "ai",
+      "aiCrop": true
+    },
+    {
+      "file": "black-bar-on-blue.png",
+      "localAlt": "Image of black bar on blue, landscape orientation, 640 by 360 pixels, mostly blue tones.",
+      "localPass": true,
+      "aiAlt": "A black horizontal stripe bordered by two blue sections.",
+      "aiPass": true,
+      "aiSource": "ai",
+      "aiCrop": false
+    },
+    {
+      "file": "two-red-circles.png",
+      "localAlt": "Image of two red circles, landscape orientation, 800 by 400 pixels, mostly red tones.",
+      "localPass": true,
+      "aiAlt": "Two red circles on a white background.",
+      "aiPass": true,
+      "aiSource": "ai",
+      "aiCrop": true
+    },
+    {
+      "file": "EC76-6048.jpg",
+      "localAlt": "Image, landscape orientation, 1920 by 1536 pixels, mostly orange tones.",
+      "localPass": false,
+      "aiAlt": "An aerial view of the unusual HiMAT research aircraft in flight over a desert landscape.",
+      "aiPass": true,
+      "aiSource": "ai",
+      "aiCrop": true
+    },
+    {
+      "file": "KSC-03pd2363.jpg",
+      "localAlt": "Image of ksc, landscape orientation, 1920 by 1251 pixels, mostly grey tones.",
+      "localPass": false,
+      "aiAlt": "Two manatees swimming together in murky water.",
+      "aiPass": true,
+      "aiSource": "ai",
+      "aiCrop": true
+    },
+    {
+      "file": "KSC-03pd2987.jpg",
+      "localAlt": "Image of ksc, landscape orientation, 1280 by 851 pixels, mostly yellow tones.",
+      "localPass": false,
+      "aiAlt": "A pink spoonbill flies low over calm water with a lush green shoreline in the background.",
+      "aiPass": true,
+      "aiSource": "ai",
+      "aiCrop": true
+    },
+    {
+      "file": "KSC-07PD-0647.jpg",
+      "localAlt": "Image of ksc, landscape orientation, 1920 by 1276 pixels, mostly grey tones.",
+      "localPass": false,
+      "aiAlt": "An adult bald eagle stands guard in a large nest high in a pine tree.",
+      "aiPass": true,
+      "aiSource": "ai",
+      "aiCrop": true
+    },
+    {
+      "file": "KSC-2014-1790.jpg",
+      "localAlt": "Image of ksc, landscape orientation, 1920 by 1280 pixels, mostly blue tones.",
+      "localPass": false,
+      "aiAlt": "A small owl chick looks over the edge of a large stick nest against a blue sky.",
+      "aiPass": true,
+      "aiSource": "ai",
+      "aiCrop": true
+    },
+    {
+      "file": "KSC-20170219-PH_JBS01_0007.jpg",
+      "localAlt": "Image of ksc ph, landscape orientation, 1920 by 1280 pixels, mostly brown tones.",
+      "localPass": false,
+      "aiAlt": "A golden sun sets over a dark forest canopy under a cloudy sky.",
+      "aiPass": true,
+      "aiSource": "ai",
+      "aiCrop": true
+    },
+    {
+      "file": "KSC-20190411-PH_ILW01_0075.jpg",
+      "localAlt": "Image of ksc ph, landscape orientation, 1920 by 1280 pixels, mostly yellow tones.",
+      "localPass": false,
+      "aiAlt": "A small butterfly with patterned wings rests on orange flowers amidst green leaves.",
+      "aiPass": true,
+      "aiSource": "ai",
+      "aiCrop": true
+    },
+    {
+      "file": "KSC-20190925-PH-GEB01_0017.jpg",
+      "localAlt": "Image of ksc ph, landscape orientation, 1920 by 1050 pixels, mostly brown tones.",
+      "localPass": false,
+      "aiAlt": "Close-up of an alligator's head submerged in a grassy marsh.",
+      "aiPass": true,
+      "aiSource": "ai",
+      "aiCrop": true
+    },
+    {
+      "file": "KSC-20210121-PH-JBS01_0143.jpg",
+      "localAlt": "Image of ksc ph, landscape orientation, 1280 by 853 pixels, mostly grey tones.",
+      "localPass": false,
+      "aiAlt": "Three alligators rest on a grassy bank beside a calm body of water.",
+      "aiPass": true,
+      "aiSource": "ai",
+      "aiCrop": false
+    },
+    {
+      "file": "KSC-20240819-PH-JBS01_0009.jpg",
+      "localAlt": "Image of ksc ph, landscape orientation, 1920 by 1280 pixels, mostly blue tones.",
+      "localPass": false,
+      "aiAlt": "A large red moon glows in a dark blue night sky above a silhouetted landscape.",
+      "aiPass": true,
+      "aiSource": "ai",
+      "aiCrop": true
+    },
+    {
+      "file": "iss040e080833.jpg",
+      "localAlt": "Image, landscape orientation, 1920 by 1277 pixels, mostly grey tones.",
+      "localPass": false,
+      "aiAlt": "Earth's horizon and cloud cover viewed from space with sun glare overhead.",
+      "aiPass": true,
+      "aiSource": "ai",
+      "aiCrop": true
+    },
+    {
+      "file": "iss072e001649.jpg",
+      "localAlt": "Image, landscape orientation, 1920 by 1078 pixels, mostly grey tones.",
+      "localPass": false,
+      "aiAlt": "A massive swirling hurricane viewed from space, showing white spiral clouds against Earth's surface.",
+      "aiPass": true,
+      "aiSource": "ai",
+      "aiCrop": true
+    }
+  ]
+}
