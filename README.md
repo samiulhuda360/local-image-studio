@@ -10,9 +10,9 @@ Local Image Studio is a photo toolkit that runs in your web browser. It puts the
 
 ## A real-life example
 
-**Priya runs the front office at Acme Lettings, a small rental agency.**
+**Sarah runs the front office at Acme Lettings, a small rental agency.**
 
-- **Before:** every new tenant emails phone photos of their ID card, front and back, often 4 MB each. Priya opens a desktop editor, pastes both sides onto a page and exports a PDF for the file. Then she resizes the flat photos for the listings site, which rejects anything over 2 MB. Finally she types a description for each photo, because the site asks for one for screen-reader users. A new listing with 12 photos takes her about 45 minutes. She also feels uneasy pasting tenants' ID cards into free websites that upload them to who-knows-where.
+- **Before:** every new tenant emails phone photos of their ID card, front and back, often 4 MB each. Sarah opens a desktop editor, pastes both sides onto a page and exports a PDF for the file. Then she resizes the flat photos for the listings site, which rejects anything over 2 MB. Finally she types a description for each photo, because the site asks for one for screen-reader users. A new listing with 12 photos takes her about 45 minutes. She also feels uneasy pasting tenants' ID cards into free websites that upload them to who-knows-where.
 - **With Local Image Studio:** she drops both card photos onto the merge tab and downloads one A4 page. She drops all 12 listing photos onto the convert tab, picks "Web", and downloads them resized for the web, a fraction of the 4 MB originals. On the third tab she gets a suggested crop and a ready-to-paste description for each photo.
 - **After:** a listing takes about 10 minutes instead of 45. That saves roughly 6 hours a month at 10 listings. ID cards stay on her own computer the whole time.
 
